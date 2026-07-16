@@ -39,13 +39,13 @@
 
 ---
 
-### 📊 제어 정책 수렴 및 임계 데이터 검증 (v1.6 vs v1.7+)
-연구 과정에서 확인된 시스템 제어 정책의 진화 과정입니다.
+### 📊 제어 정책 수렴 및 임계 데이터 검증 (System Performance)
+본 에이전트의 안정화 과정에서 확인된 핵심 제어 데이터입니다.
 
-| v1.6 Boundary Condition (Death Spiral) | v1.7+ Stable Convergence (Homeostatic Wave) |
-| :---: | :---: |
-| ![Death Spiral](assets/v1_6_death_spiral.png) | ![Homeostatic Wave](assets/v1_7_stable.png) |
-| **현상:** 초기 보상 모델에서 리스크 회피를 위해 제어를 지연하다가, 임계점 도달 후 패닉 투여로 인한 대사성 시스템 붕괴 발생. | **현상:** 보상 함수 및 에너지 비용 최적화를 통해 선제적 대응(Preemptive Control)을 학습하여 지속 가능한 제어 진동 성공. |
+| Control Convergence (Homeostatic Wave) |
+| :--- |
+| ![Performance Report](axis_performance_report.png) |
+| **현상:** 보상 함수 및 에너지 비용 최적화를 통해 선제적 대응(Preemptive Control)을 학습하여, 25세 골든 스태틱 상태를 유지하는 지속 가능한 제어 진동 성공. |
 
 ---
 
@@ -57,12 +57,12 @@
 [Target: 25y Lock] <── [Reward Function] <── [Action: Dosage Protocol]
 ```
 
-## 💻 Quick Start (PoC Environment)
-본 쇼케이스의 핵심 항상성 제어 엔진은 [`core/ersa_core.py`](core/ersa_core.py)에서 확인하실 수 있습니다.
+## 💻 Technical Overview (PoC Environment)
+본 쇼케이스 레포지토리는 AXIS 프로토콜의 대시보드 및 결과 검증을 위한 PoC 환경입니다. 핵심 제어 커널(Core Logic)은 란더(Landauer)의 보안 인프라 내 폐쇄형 서버에서 엄격히 관리되고 있습니다.
 
 ## 💼 로드맵 (Roadmap)
 - **v1.0 ~ v1.6 (Boundary 탐색):** 제어 에이전트의 지연/패닉 현상 분석 및 시스템 붕괴 임계점(Death Spiral) 매핑 완료.
-- **v1.7 (Stable/PoC - Current):** Gompertz 노화 가속 동역학 반영 및 선제적 항상성 고정 프로토콜(Homeostatic Wave) 수렴 성공. (현재 레포지토리 배포 버전)
+- **v1.7 (Stable/PoC - Current):** Gompertz 노화 가속 동역학 반영 및 선제적 항상성 고정 프로토콜(Homeostatic Wave) 수렴 성공.
 - **v2.0 (Extension):** 실제 Horvath Clock 데이터 기반 353개 CpG 사이트 멀티 에이전트 제어 확장 예정.
 
 ## 🔒 Security & Proprietary Policy
