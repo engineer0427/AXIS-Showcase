@@ -42,8 +42,8 @@
 ## 🏗️ 시스템 아키텍처
 ```text
 [State: Age, Entropy, Energy] ──▶ [PPO Agent Policy]
-             ▲                            │
-             │                            ▼
+             ▲                      │
+             │                      ▼
 [Target: 25y Lock] ◀── [Reward Function] ◀── [Action: Dosage Protocol]
 ```
 
@@ -52,23 +52,21 @@
 
 | Control Convergence (Homeostatic Wave) |
 | :--- |
-| ![Performance Report](./assets/axis_performance_report.png) |
+| ![Performance Report](axis_performance_report.png) |
 | **현상:** 보상 함수 및 에너지 비용 최적화를 통해 선제적 대응(Preemptive Control)을 학습하여, 25세 골든 스태틱 상태를 유지하는 지속 가능한 제어 진동 성공. |
 
 ## 🔒 Security & Proprietary Policy
-**본 레포지토리는 AXIS 프로토콜의 개념 검증용(PoC) 쇼케이스 환경입니다.** 
-핵심 제어 로직 및 생체 마커 매핑 데이터가 포함된 **실제 운영용 커널 및 원천 알고리즘**은 란더(Landauer)의 폐쇄형 보안 인프라(Private Repository) 내에서 엄격하게 관리되고 있습니다.
+본 레포지토리는 AXIS 프로토콜의 개념 검증용(PoC) 쇼케이스 환경입니다. 핵심 제어 로직 및 생체 마커 매핑 데이터가 포함된 실제 운영용 커널 및 원천 알고리즘은 란더(Landauer)의 폐쇄형 보안 인프라(Private Repository) 내에서 엄격하게 관리되고 있습니다.
 
 - **기술 실사(Due Diligence):** 본 기술의 심도 있는 검증이 필요한 글로벌 바이오-테크 파트너사 및 연구 기관은 란더 공식 채널을 통해 NDA(기밀유지협약) 체결 후 기술 검증을 진행할 수 있습니다.
 
 ## 💼 향후 로드맵 (Roadmap)
-- **v1.0 v1.6 (Boundary 탐색):** 제어 에이전트의 지연/패닉 현상 분석 및 시스템 붕괴 임계점(Death Spiral) 매핑 완료.
-- **v1.7 (Stable/PoC Current):** Gompertz 노화 가속 동역학 반영 및 선제적 항상성 고정 프로토콜(Homeostatic Wave) 수렴 성공.
+- **v1.0 ~ v1.6 (Boundary 탐색):** 제어 에이전트의 지연/패닉 현상 분석 및 시스템 붕괴 임계점(Death Spiral) 매핑 완료.
+- **v1.7 (Stable/PoC - Current):** Gompertz 노화 가속 동역학 반영 및 선제적 항상성 고정 프로토콜(Homeostatic Wave) 수렴 성공.
 - **v2.0 (Extension):** 실제 Horvath Clock 데이터 기반 353개 CpG 사이트 멀티 에이전트 제어 확장 예정.
 
----
-
-*⚠️ **법적 고지 (Legal Notice):** 본 프로토콜은 란더(Landauer)의 독점 기술 자산입니다. 공식 서면 동의 없는 본 알고리즘의 무단 도용, 역공학(Reverse Engineering), 또는 무단 모방 행위는 적발 즉시 엄격한 민형사상의 강력한 법적 조치 대상이 됩니다.*
+## ⚠️ 법적 고지 (Legal Notice)
+본 프로토콜은 란더(Landauer)의 독점 기술 자산입니다. 공식 서면 동의 없는 본 알고리즘의 무단 도용, 역공학(Reverse Engineering), 또는 무단 모방 행위는 적발 즉시 엄격한 민형사상의 강력한 법적 조치 대상이 됩니다.
 
 ---
 
