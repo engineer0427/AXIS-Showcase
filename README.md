@@ -40,7 +40,6 @@
 ---
 
 ### 📊 제어 정책 수렴 및 임계 데이터 검증 (v1.6 vs v1.7+)
-
 연구 과정에서 확인된 시스템 제어 정책의 진화 과정입니다.
 
 | v1.6 Boundary Condition (Death Spiral) | v1.7+ Stable Convergence (Homeostatic Wave) |
@@ -52,10 +51,10 @@
 
 ## 🏗️ 시스템 아키텍처
 ```text
-[State: Age, Entropy, Energy] ──▶ [PPO Agent Policy]
-                                           │
-                                           ▼
-[Target: 25y Lock] ◀── [Reward Function] ◀── [Action: Dosage Protocol]
+[State: Age, Entropy, Energy] ──> [PPO Agent Policy]
+                                          │
+                                          ▼
+[Target: 25y Lock] <── [Reward Function] <── [Action: Dosage Protocol]
 ```
 
 ## 💻 Quick Start (PoC Environment)
