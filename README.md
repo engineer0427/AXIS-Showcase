@@ -1,68 +1,68 @@
 # 🧬 AXIS Protocol: Biological Homeostasis Kernel
-**[Autonomous Cybernetic Control System for Identity-Preserving Bio-Rejuvenation]**  
-*강화학습 기반의 생체 시스템 항상성 제어 및 엔트로피 관리 시스템*
+**[Autonomous Cybernetic Control System for Golden-Setpoint Bio-Rejuvenation]**  
+*강화학습 기반의 생체 시스템 항상성 제어 및 엔트로피 관리 커널*
 
-> **"생물학적 노화는 시스템의 버그인가, 최적화의 실패인가? 시스템을 재설계하라."**
+> **"생물학적 노화는 시스템의 버그인가, 최적화의 실패인가? AXIS Protocol로 시스템의 운명을 재설계하라."**
 
 ---
 
 ### 📜 지식재산권(IP) 및 거버넌스 현황
 - **IP 독점 관리:** 본 원천 기술의 상업적 권리 및 글로벌 라이선싱 비즈니스는 **기술 지주회사 란더(Landauer)**에 의해 독점 관리 및 보호됩니다.
-- **학술적 실증:** 강화학습(PPO) 알고리즘을 생체 폐루프 제어(Closed-loop Control) 모델에 이식한 본 방법론은, 시스템 제어 이론(Control Theory)과 생물학적 마커 데이터(Biomarkers)를 융합한 차세대 제어 아키텍처로 설계되었습니다.
+- **학술적 실증:** 강화학습(PPO) 알고리즘을 생체 폐루프 제어(Closed-loop Control) 모델에 이식한 본 방법론은, 시스템 제어 이론과 정보이론(Landauer Principle)을 융합한 차세대 항상성 제어 아키텍처입니다.
 
 ---
 
 > 💡 **시스템 아키텍처적 임팩트 (Cybernetic Bio-Control):**
-> AXIS Protocol은 기존의 수동적 노화 방지 모델을 넘어, 강화학습(PPO) 알고리즘을 도입한 **실시간 피드백 제어 시스템(Closed-loop Control System)**입니다. 세포 단위의 생물학적 상태를 하나의 상태 공간(State Space)으로 정의하고, 노화 엔트로피를 최소화하는 최적 제어 정책(Optimal Policy)을 스스로 학습합니다. 이는 외부 개입이 아닌, 시스템 스스로 '골든 에이지(Golden Age)'의 항상성을 추종(Tracking)하도록 하는 제어 공학적 혁신입니다.
+> AXIS Protocol은 수동적 노화 방지를 넘어, 강화학습(PPO)을 통해 **'항상성(Homeostasis)'을 능동적으로 추종하는 실시간 피드백 제어 시스템**입니다. 본 커널은 세포 상태를 정보 엔트로피와 에너지 가용량으로 정의하고, 노화 가속 동역학(Gompertz-Makeham model) 내에서 '골든 스태틱(Golden Static, 25y)' 상태를 유지하기 위한 최적 정책을 실시간 산출합니다. 
 
 ---
 
 ## 🚀 비전: 생체 시스템의 정체성 보존과 항상성 최적화
-현대 바이오 테크놀로지는 노화라는 복잡계 현상을 단순히 단백질 수준의 개입으로 해결하려 합니다. **AXIS Protocol**은 이를 공학적 관점으로 전환하여, 생체 시스템의 **'항상성 엔트로피'를 관리하는 강화학습 에이전트**를 배포합니다.
+현대 바이오 테크놀로지는 노화라는 복잡계를 단백질 수준의 개입으로 해결하려 합니다. **AXIS Protocol**은 이를 공학적 관점으로 전환하여, 생체 시스템의 **'항상성 엔트로피'를 관리하는 항상-온(Always-on) 제어 에이전트**를 배포합니다.
 
-세포 스스로가 자신의 'Identity Integrity(정체성 점수)'를 계산하고, 이를 최상으로 유지하기 위한 도징 프로토콜을 자율적으로 산출합니다. 우리는 단순한 수명 연장이 아닌, 생물학적 상태의 자율 제어 표준 규격을 제시합니다.
+세포는 자신의 'Identity Integrity'를 실시간 모니터링하며, 25세라는 이상적인 상태를 벗어나는 순간 발생하는 지수적 페널티를 회피하기 위해 선제적으로 도징 프로토콜을 가동합니다.
 
 ---
 
-## 🛠️ 기술 방법론 및 제어 아키텍처 (Technical Methodology)
+## 🛠️ 핵심 기술 방법론 (Technical Methodology)
 
-### 1. PPO 기반의 폐루프 제어 (Stochastic Control Theory)
-- **알고리즘:** 근접 정책 최적화(PPO) 알고리즘을 사용하여, 생체 데이터의 비선형적인 변화를 학습하고 정책(Policy)을 점진적으로 개선합니다.
-- **Action Smoothing:** 갑작스러운 생화학적 변동으로 인한 시스템 붕괴를 막기 위해 행동 평활화(Action Smoothing) 레이어를 적용하여, 최적의 제어 값이 부드럽게 유도되도록 설계했습니다.
+### 1. 엔트로피 기반의 폐루프 제어 (Stochastic Control Theory)
+- **비선형 동역학 (Non-linear Dynamics):** 노화 속도가 연령에 따라 가속화되는 Gompertz-Makeham 동역학을 시뮬레이션 환경에 내재화하여, 현실적인 생체 저항을 모델링함.
+- **Landauer 원리 기반 비용함수:** 정보 엔트로피를 낮추는(회춘) 행위에는 반드시 상응하는 에너지 비용(Landauer Cost)이 발생함을 수식화하여, 현실적인 생체 에너지 제약을 반영.
 
-### 2. 정체성 보존 모델 (Identity-Preserving Manifold)
-- **Reward Shaping:** 보상 함수(Reward Function)에 '세포 정체성'을 제약 조건으로 포함시켜, 역분화 과정에서 발생할 수 있는 세포의 기능적 변질(Identity Drift)을 방지합니다. 
-- **사망 방지 페널티(Survival Penalty):** 제어 최적화 과정에서 임계치를 벗어나는 액션(Action)이 발생할 경우, 모델에 강력한 페널티를 부여하여 시스템의 강건성(Robustness)을 보장합니다.
+### 2. 골든 셋포인트 락 (Golden-Setpoint Lock)
+- **지수적 보상 체계:** 25세라는 목표 상태를 이탈할 경우 발생하는 페널티를 지수적으로 강화하여, 에이전트가 항상 최적의 상태에 머무르도록 강제하는 '항상성 고정 프로토콜'을 구현함.
+- **선제적 대응 (Preemptive Control):** 위기가 닥친 후 반응하는 것이 아니라, 미세한 상태 변화를 감지하여 0.03 단위의 정밀한 도징으로 시스템을 선제적으로 보정함.
 
-### 3. 자율 피드백 엔진 (Autonomous Homeostasis)
-- **Closed-Loop Feedback:** 외부 환경 및 내부 상태 변화를 실시간으로 모니터링하고, 도징 프로토콜의 파라미터를 동적으로 재조정(Re-tuning)하는 지능형 모니터링 루프를 가동합니다.
+### 3. 정체성 보존 모델 (Identity-Preserving Manifold)
+- **보상 구조 최적화:** 정체성 점수(Identity Score)를 보상의 1순위 제약 조건으로 설정하여, 회춘 과정에서 발생할 수 있는 세포의 기능적 변질(Identity Drift)을 방지함.
 
 ---
 
 ## 🏗️ 시스템 아키텍처
 ```text
-[Input: Biological Markers] ──▶ [Observation Space] ──▶ [PPO Agent Policy]
-                                                                │
-                                                                ▼
-[State Integrity] ◀── [Reward Function] ◀── [Action: Dosage Protocol]
+[State: Age, Entropy, Energy] ──▶ [PPO Agent Policy]
+                                           │
+                                           ▼
+[Target: 25y Lock] ◀── [Reward Function] ◀── [Action: Dosage Protocol]
 ```
 
 ## 🔒 Security & Proprietary Policy
-**본 레포지토리는 AXIS 프로토콜의 개념 검증용 쇼케이스 환경입니다.** 
-핵심 제어 로직 및 생체 마커 매핑 데이터가 포함된 **실제 운영용 커널 및 원천 알고리즘**은 란더(Landauer)의 폐쇄형 보안 인프라(Private Repository) 내에서 엄격하게 관리되고 있습니다.
+**본 레포지토리는 AXIS 프로토콜의 개념 검증용(PoC) 쇼케이스 환경입니다.**  
+핵심 제어 로직 및 생체 마커 매핑 데이터가 포함된 **실제 운영용 커널 및 원천 알고리즘**은 란더(Landauer)의 폐쇄형 보안 인프라 내에서 엄격하게 관리되고 있습니다.
 
-- **핵심 로직 보안:** 강화학습 모델의 하이퍼파라미터 및 핵심 보상 함수 설계 로직은 외부 유출을 방지하기 위해 퍼블릭 뷰에서 제외되었습니다.
-- **기술 실사:** 기술 실사(Due Diligence)가 필요한 글로벌 바이오-테크 파트너사 및 연구 기관은 란더 공식 채널을 통해 NDA 체결 후 기술 검증을 진행할 수 있습니다.
+- **기술 실사(Due Diligence):** 본 기술의 심도 있는 검증이 필요한 글로벌 바이오-테크 파트너사 및 연구 기관은 란더 공식 채널을 통해 NDA(기밀유지협약) 체결 후 기술 검증을 진행할 수 있습니다.
 
-## 💼 향후 로드맵
-- **v1.0 (Stable):** 단일 세포 단위 제어 성공, 25세 타겟팅 항상성 확보.
-- **v1.1 (Enhancement):** 주기적 투여(Cyclic Dose) 알고리즘 및 Max Rejuvenation Delta 메트릭 구현 예정.
-- **v2.0 (Extension):** 조직 수준(Tissue-level) 멀티 에이전트 제어 확장 및 강건성 테스트.
-
----
-
-*⚠️ **법적 고지 (Legal Notice):** 본 프로토콜은 란더(Landauer)의 독점 기술 자산입니다. 공식 서면 동의 없는 본 알고리즘의 무단 도용, 역공학(Reverse Engineering), 또는 무단 모방 행위는 적발 즉시 엄격한 민형사상의 강력한 법적 조치 대상이 됩니다.*
+## 💼 로드맵 (Roadmap)
+- **v1.0 (Stable/PoC):** 시스템 동역학 및 항상성 고정 프로토콜 검증 완료.
+- **v1.1 (Enhancement):** 주기적 투여(Cyclic Dose) 알고리즘 및 도징 전략 고도화 예정.
+- **v2.0 (Extension):** 실제 Horvath Clock 데이터 기반 353개 CpG 사이트 멀티 에이전트 제어 확장.
 
 ---
 
-*생체 시스템을 제어 가능한 엔지니어링 영역으로 전환하려는 우리의 비전에 공감하신다면, 본 레포지토리에 **Star**를 눌러 우리 연구를 응원해 주세요!*
+## ⚠️ 법적 고지 (Legal Notice)
+**본 프로토콜은 란더(Landauer)의 독점 기술 자산입니다.** 공식 서면 동의 없는 본 알고리즘의 무단 도용, 역공학(Reverse Engineering), 또는 무단 모방 행위는 적발 즉시 엄격한 민형사상의 강력한 법적 조치 대상이 됩니다.
+
+---
+
+*생체 시스템을 제어 가능한 공학의 영역으로 격상시키는 AXIS Protocol의 비전에 공감하신다면, 본 레포지토리에 **Star**를 눌러 우리 연구를 응원해 주세요!*
