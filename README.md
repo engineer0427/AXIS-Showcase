@@ -6,6 +6,13 @@
 
 ---
 
+### 📄 Academic Citation (학술적 증명)
+본 기술의 핵심 방법론 및 학술적 정립 내용은 아래 프리프린트 논문을 통해 확인 및 인용하실 수 있습니다.
+- **Reference:** Han, J. W. (2026). AXIS Project: Proactive Biological Homeostasis via the ERSA Algorithm. Zenodo.
+- **DOI:** [https://doi.org/10.5281/zenodo.21439831](https://doi.org/10.5281/zenodo.21439831)
+
+---
+
 ### 📜 지식재산권(IP) 및 거버넌스 현황
 - **IP 독점 관리:** 본 원천 기술의 상업적 권리 및 글로벌 라이선싱 비즈니스는 **기술지주회사 란더(Landauer)**에 의해 독점 관리 및 보호됩니다.
 - **학술적 실증:** 강화학습(PPO) 알고리즘을 생체 폐루프 제어(Closed-loop Control) 모델에 이식한 본 방법론은, 시스템 제어 이론과 정보이론(Landauer Principle)을 융합한 차세대 항상성 제어 아키텍처입니다.
@@ -42,8 +49,8 @@
 ## 🏗️ 시스템 아키텍처
 ```text
 [State: Age, Entropy, Energy] ──▶ [PPO Agent Policy]
-             ▲                      │
-             │                      ▼
+               ▲                     │
+               │                     ▼
 [Target: 25y Lock] ◀── [Reward Function] ◀── [Action: Dosage Protocol]
 ```
 
